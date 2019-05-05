@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Shiny"
-author: "RCS summer school 2018"
+title: ""
+subtitle: ""
 output:
   html_document:
     toc: true
@@ -12,6 +12,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(eval = FALSE)
 ```
+
+# Introduction to Shiny
+**Software carpentry R workshop - Imperial College 2019**  
+Examples and solutions can be found in https://github.com/anatmela/shiny-intro-workshop  
+<br>  
+
+
 ## R shiny
 Shiny apps allow us to create interactive visualisations and dashboards, allowing 
 flexibility and interactivity for your data analysis. 
@@ -148,7 +155,7 @@ We can add to the different output types, for example in the main panel. Output 
 
 In order to produce objects for output, we need to produce them in the server script. Objects created in the server are saved into an output list object.  Each ``Output`` function in the UI script, has a corresponding ``Render`` function in the server.   
 
-![Shiny output functions, R studio](docs/outputshiny.png)
+![Shiny output functions, R studio](outputshiny.png)
 
 ```{r}
 
