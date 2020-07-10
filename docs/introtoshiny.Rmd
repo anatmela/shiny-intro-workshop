@@ -14,7 +14,7 @@ knitr::opts_chunk$set(eval = FALSE)
 ```
 
 # Introduction to Shiny
-**Software carpentry R workshop - Imperial College 2019**  
+<!-- **Software carpentry R workshop - Imperial College 2019**   -->
 Examples and solutions can be found in https://github.com/anatmela/shiny-intro-workshop  
 <br>  
 
